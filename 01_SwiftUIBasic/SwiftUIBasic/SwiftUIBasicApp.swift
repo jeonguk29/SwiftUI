@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIBasicApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            ColorPickerSelect() //시뮬레이터에 화면 보이고 싶을때 여기서 지정해줌
         }
     }
 }
