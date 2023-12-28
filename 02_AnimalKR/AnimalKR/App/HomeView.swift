@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
 	
 	// property
+    // 모든 탭에 해당하는 서브뷰들이 해당 뷰 모델을 공유함 
 	@StateObject var vm: AnimalViewModel = AnimalViewModel()
 	
     var body: some View {
