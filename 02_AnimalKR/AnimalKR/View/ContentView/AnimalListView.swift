@@ -39,6 +39,6 @@ struct AnimalListView: View {
 struct AnimalListView_Previews: PreviewProvider {
     static var previews: some View {
 		AnimalListView(animal: Animal.sampleAnimal)
-        // 모델에 샘플 만들면 이렇게 편함 
+        // 모델에 샘플 만들면 이렇게 편함
     }
 }
