@@ -62,10 +62,23 @@ struct MyWidgetEntryView : View {
     var body: some View {
         VStack {
             Text("Drink \(entry.count)")
+                .id(entry.count)
+                .transition(.push(from: .trailing)) // 애니메이션 설정 부분
+//                .animation(.smooth(duration: 0.5), value: entry.count)
+                .animation(.bouncy(extraBounce: 0.5), value: entry.count)
+            // 달력 넘어가듯이
+            // 해당 텍스트만 변하게 구현
             Text("Cups of coffee")
             Text("☕️")
+            
+            Spacer()
+            
+            Text(entry.date, style: .date)
+                .id(entry.count)
+                .transition(.push(from: .bottom))
+                .animation(.smooth(duration: 0.5), value: entry.count)
         }
-        //.containerBackground(.fill.tertiary, for: .widget)
+        .containerBackground(.fill.tertiary, for: .widget)
     }
 }
 
@@ -93,5 +106,8 @@ struct MyWidget: Widget {
     MyWidget()
 } timeline: {
     SimpleEntry(date: .now, count: 0)
-    SimpleEntry(date: .now, count: 3)
+    SimpleEntry(date: Date(timeIntervalSince1970: 3), count: 3)
+    // 기존에 SwiftUI View같은 경우는 State같은게 변하면 뷰가 변화했는데 Widget은
+    SimpleEntry(date: Date(timeIntervalSince1970: 100), count: 6)
+// 와 같이 타임라인이 변할때 바뀌는 값만 화면이 변함
 }
