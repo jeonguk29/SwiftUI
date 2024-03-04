@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBin8te6uLS8ErENIweNzloeoWZbpCNIOE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1031558108755</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.woogie.FCM-Tutorial-Devel</string>
+	<key>PROJECT_ID</key>
+	<string>push-tutorial-dev-c243c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>push-tutorial-dev-c243c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1031558108755:ios:227c3a54b0b64fc5b458a6</string>
+</dict>
+</plist>

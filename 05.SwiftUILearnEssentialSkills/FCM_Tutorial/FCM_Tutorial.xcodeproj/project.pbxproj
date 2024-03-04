@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643333492B95FC6B00FEBA46 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643333482B95FC6B00FEBA46 /* GoogleService-Info.plist */; };
+		6433334D2B9602EB00FEBA46 /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6433334C2B9602EB00FEBA46 /* GoogleService-Info-Release.plist */; };
 		64AECE5D2B95D68E003DBE05 /* FCM_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AECE5C2B95D68E003DBE05 /* FCM_TutorialApp.swift */; };
 		64AECE5F2B95D68E003DBE05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AECE5E2B95D68E003DBE05 /* ContentView.swift */; };
 		64AECE612B95D691003DBE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AECE602B95D691003DBE05 /* Assets.xcassets */; };
 		64AECE642B95D691003DBE05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64AECE632B95D691003DBE05 /* Preview Assets.xcassets */; };
-		64AECE6B2B95D8C4003DBE05 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64AECE6A2B95D8C4003DBE05 /* GoogleService-Info.plist */; };
 		64AECE6E2B95DA2F003DBE05 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 64AECE6D2B95DA2F003DBE05 /* FirebaseAnalytics */; };
 		64AECE702B95DA2F003DBE05 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 64AECE6F2B95DA2F003DBE05 /* FirebaseAnalyticsOnDeviceConversion */; };
 		64AECE722B95DA2F003DBE05 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 64AECE712B95DA2F003DBE05 /* FirebaseAnalyticsSwift */; };
@@ -42,12 +43,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643333482B95FC6B00FEBA46 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6433334B2B96022200FEBA46 /* GoogleService-Info-Devel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Devel.plist"; sourceTree = "<group>"; };
+		6433334C2B9602EB00FEBA46 /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		64AECE592B95D68E003DBE05 /* FCM_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCM_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64AECE5C2B95D68E003DBE05 /* FCM_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCM_TutorialApp.swift; sourceTree = "<group>"; };
 		64AECE5E2B95D68E003DBE05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		64AECE602B95D691003DBE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64AECE632B95D691003DBE05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		64AECE6A2B95D8C4003DBE05 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		64AECEA32B95DA64003DBE05 /* FCM_Tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FCM_Tutorial.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6433334A2B96021400FEBA46 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				6433334C2B9602EB00FEBA46 /* GoogleService-Info-Release.plist */,
+				6433334B2B96022200FEBA46 /* GoogleService-Info-Devel.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
 		64AECE502B95D68D003DBE05 = {
 			isa = PBXGroup;
 			children = (
@@ -111,8 +123,9 @@
 				64AECEA32B95DA64003DBE05 /* FCM_Tutorial.entitlements */,
 				64AECE5C2B95D68E003DBE05 /* FCM_TutorialApp.swift */,
 				64AECE5E2B95D68E003DBE05 /* ContentView.swift */,
+				643333482B95FC6B00FEBA46 /* GoogleService-Info.plist */,
 				64AECE602B95D691003DBE05 /* Assets.xcassets */,
-				64AECE6A2B95D8C4003DBE05 /* GoogleService-Info.plist */,
+				6433334A2B96021400FEBA46 /* Firebase */,
 				64AECE622B95D691003DBE05 /* Preview Content */,
 			);
 			path = FCM_Tutorial;
@@ -136,6 +149,7 @@
 				64AECE552B95D68E003DBE05 /* Sources */,
 				64AECE562B95D68E003DBE05 /* Frameworks */,
 				64AECE572B95D68E003DBE05 /* Resources */,
+				6433334E2B9603B100FEBA46 /* Firebase info plist */,
 			);
 			buildRules = (
 			);
@@ -218,11 +232,33 @@
 			files = (
 				64AECE642B95D691003DBE05 /* Preview Assets.xcassets in Resources */,
 				64AECE612B95D691003DBE05 /* Assets.xcassets in Resources */,
-				64AECE6B2B95D8C4003DBE05 /* GoogleService-Info.plist in Resources */,
+				643333492B95FC6B00FEBA46 /* GoogleService-Info.plist in Resources */,
+				6433334D2B9602EB00FEBA46 /* GoogleService-Info-Release.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6433334E2B9603B100FEBA46 /* Firebase info plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Firebase info plist";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#파이어베이스 인포 리스트 올리기 개발, 운영\n\nPATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/${PRODUCT_NAME}/Firebase\"\n\ncase \"${CONFIGURATION}\" in\n    \"Debug\" )\n        cp -r \"$SRCROOT/${PRODUCT_NAME}/Firebase/GoogleService-Info-Devel.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info-Release.plist\" ;;\n    \"Release\" )\n        cp -r \"$SRCROOT/${PRODUCT_NAME}/Firebase/GoogleService-Info-Release.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info-Devel.plist\" ;;\n    *) ;;\nesac\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64AECE552B95D68E003DBE05 /* Sources */ = {
@@ -368,7 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FCM_Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 5KA6J79S24;
+				DEVELOPMENT_TEAM = 9S8KMMC3YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "디버그";
@@ -382,11 +418,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.FCM-Tutorial-dev";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.FCM-Tutorial-Devel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				aaa = "";
 			};
 			name = Debug;
 		};
@@ -400,10 +437,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FCM_Tutorial/Preview Content\"";
-				DEVELOPMENT_TEAM = 5KA6J79S24;
+				DEVELOPMENT_TEAM = 9S8KMMC3YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "운영";
+				INFOPLIST_KEY_CFBundleDisplayName = "디버그";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -414,11 +451,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.FCM-Tutorial";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woogie.FCM-Tutorial-Rele";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				aaa = "";
 			};
 			name = Release;
 		};
