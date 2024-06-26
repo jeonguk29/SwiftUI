@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		646255842AD582780057D835 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646255832AD582780057D835 /* test.swift */; };
 		648ABDBC2AE8D0EA009FE777 /* IOSDeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABDB02AE8D0EA009FE777 /* IOSDeviceViewModel.swift */; };
 		648ABDBD2AE8D0EA009FE777 /* FruitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABDB12AE8D0EA009FE777 /* FruitViewModel.swift */; };
 		648ABDBE2AE8D0EA009FE777 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABDB32AE8D0EA009FE777 /* FruitModel.swift */; };
@@ -20,8 +19,6 @@
 		648ABDC52AE8D0EA009FE777 /* IOSDeviceView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648ABDBB2AE8D0EA009FE777 /* IOSDeviceView1.swift */; };
 		649A87A32AEA2EA00049A0C0 /* ObservableDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A87A22AEA2EA00049A0C0 /* ObservableDemoView.swift */; };
 		649A87A52AEA31F30049A0C0 /* ObservableSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A87A42AEA31F30049A0C0 /* ObservableSecondView.swift */; };
-		649A87A72AEA4C1F0049A0C0 /* 10-26test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A87A62AEA4C1F0049A0C0 /* 10-26test.swift */; };
-		649A87A92AEA51FF0049A0C0 /* 10-26test2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A87A82AEA51FF0049A0C0 /* 10-26test2View.swift */; };
 		810D587929255E3E00914252 /* AppStorageBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810D587829255E3E00914252 /* AppStorageBasic.swift */; };
 		810FB95628530945002420DB /* GradientBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810FB95528530945002420DB /* GradientBasic.swift */; };
 		811F5FD328AEE12F00DAC982 /* NavigationBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F5FD228AEE12F00DAC982 /* NavigationBasic.swift */; };
@@ -76,7 +73,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		646255832AD582780057D835 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		648ABDB02AE8D0EA009FE777 /* IOSDeviceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSDeviceViewModel.swift; sourceTree = "<group>"; };
 		648ABDB12AE8D0EA009FE777 /* FruitViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitViewModel.swift; sourceTree = "<group>"; };
 		648ABDB32AE8D0EA009FE777 /* FruitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
@@ -89,8 +85,6 @@
 		648ABDBB2AE8D0EA009FE777 /* IOSDeviceView1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSDeviceView1.swift; sourceTree = "<group>"; };
 		649A87A22AEA2EA00049A0C0 /* ObservableDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDemoView.swift; sourceTree = "<group>"; };
 		649A87A42AEA31F30049A0C0 /* ObservableSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableSecondView.swift; sourceTree = "<group>"; };
-		649A87A62AEA4C1F0049A0C0 /* 10-26test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-26test.swift"; sourceTree = "<group>"; };
-		649A87A82AEA51FF0049A0C0 /* 10-26test2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-26test2View.swift"; sourceTree = "<group>"; };
 		810D587829255E3E00914252 /* AppStorageBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBasic.swift; sourceTree = "<group>"; };
 		810FB95528530945002420DB /* GradientBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasic.swift; sourceTree = "<group>"; };
 		811F5FD228AEE12F00DAC982 /* NavigationBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasic.swift; sourceTree = "<group>"; };
@@ -202,8 +196,6 @@
 			children = (
 				649A87A22AEA2EA00049A0C0 /* ObservableDemoView.swift */,
 				649A87A42AEA31F30049A0C0 /* ObservableSecondView.swift */,
-				649A87A62AEA4C1F0049A0C0 /* 10-26test.swift */,
-				649A87A82AEA51FF0049A0C0 /* 10-26test2View.swift */,
 			);
 			path = CodeLion;
 			sourceTree = "<group>";
@@ -288,7 +280,6 @@
 				81563B4628AAF8B300122543 /* Component */,
 				81A020FA284A032D00F3717A /* Assets.xcassets */,
 				81A020FC284A032D00F3717A /* Preview Content */,
-				646255832AD582780057D835 /* test.swift */,
 			);
 			path = SwiftUIBasic;
 			sourceTree = "<group>";
@@ -384,9 +375,7 @@
 				810FB95628530945002420DB /* GradientBasic.swift in Sources */,
 				648ABDBC2AE8D0EA009FE777 /* IOSDeviceViewModel.swift in Sources */,
 				815CD42928AD7E53009E296E /* SheetBasic.swift in Sources */,
-				649A87A72AEA4C1F0049A0C0 /* 10-26test.swift in Sources */,
 				815CD42728AD7A84009E296E /* TransitionBasic.swift in Sources */,
-				646255842AD582780057D835 /* test.swift in Sources */,
 				8151A4E728B00D34000484B0 /* ContexMenuBasic.swift in Sources */,
 				8177463128AA0EA6008C26E4 /* LazyGridBasic.swift in Sources */,
 				8197486D2910712900FD0974 /* OnAppearBasic.swift in Sources */,
@@ -421,7 +410,6 @@
 				648ABDC32AE8D0EA009FE777 /* IOSDeviceView2.swift in Sources */,
 				81A020F7284A032C00F3717A /* SwiftUIBasicApp.swift in Sources */,
 				81BBCAF828A70546000266B3 /* SpacerBasic.swift in Sources */,
-				649A87A92AEA51FF0049A0C0 /* 10-26test2View.swift in Sources */,
 				648ABDC02AE8D0EA009FE777 /* UserModel.swift in Sources */,
 				81420E2528A9A7140089C28F /* ScrollViewBasic.swift in Sources */,
 				8197486F2910745600FD0974 /* OnTabGestureBasic.swift in Sources */,
@@ -565,7 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBasic/Preview Content\"";
-				DEVELOPMENT_TEAM = M63L6X73D4;
+				DEVELOPMENT_TEAM = 9S8KMMC3YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -598,7 +586,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBasic/Preview Content\"";
-				DEVELOPMENT_TEAM = M63L6X73D4;
+				DEVELOPMENT_TEAM = 9S8KMMC3YH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -37,11 +37,11 @@ struct HomeView: View {
 				}
 			
 			// 4. AppInfoView
-			AppInfoView()
-				.tabItem {
-					Image(systemName: "gear")
-					Text("앱정보")
-				}
+//			AppInfoView()
+//				.tabItem {
+//					Image(systemName: "gear")
+//					Text("앱정보")
+//				}
 			
 		} //: TAB
     }

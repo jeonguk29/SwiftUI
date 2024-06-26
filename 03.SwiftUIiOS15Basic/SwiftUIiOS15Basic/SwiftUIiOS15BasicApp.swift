@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIiOS15BasicApp: App {
     var body: some Scene {
         WindowGroup {
-            TextiOS15()
+            //TextiOS15()
         }
     }
 }

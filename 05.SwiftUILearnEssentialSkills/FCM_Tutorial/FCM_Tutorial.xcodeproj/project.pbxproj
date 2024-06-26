@@ -149,7 +149,6 @@
 				64AECE552B95D68E003DBE05 /* Sources */,
 				64AECE562B95D68E003DBE05 /* Frameworks */,
 				64AECE572B95D68E003DBE05 /* Resources */,
-				6433334E2B9603B100FEBA46 /* Firebase info plist */,
 			);
 			buildRules = (
 			);
@@ -238,27 +237,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		6433334E2B9603B100FEBA46 /* Firebase info plist */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Firebase info plist";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#파이어베이스 인포 리스트 올리기 개발, 운영\n\nPATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/${PRODUCT_NAME}/Firebase\"\n\ncase \"${CONFIGURATION}\" in\n    \"Debug\" )\n        cp -r \"$SRCROOT/${PRODUCT_NAME}/Firebase/GoogleService-Info-Devel.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info-Release.plist\" ;;\n    \"Release\" )\n        cp -r \"$SRCROOT/${PRODUCT_NAME}/Firebase/GoogleService-Info-Release.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info-Devel.plist\" ;;\n    *) ;;\nesac\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		64AECE552B95D68E003DBE05 /* Sources */ = {

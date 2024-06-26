@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6486E1182C0A0D7D000D928C /* NavigationStackBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486E1152C0A0D7C000D928C /* NavigationStackBasic.swift */; };
+		6486E1192C0A0D7D000D928C /* NavigationLinkiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486E1162C0A0D7D000D928C /* NavigationLinkiOS16.swift */; };
+		6486E11A2C0A0D7D000D928C /* NavigationSpliteViewiOS16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6486E1172C0A0D7D000D928C /* NavigationSpliteViewiOS16.swift */; };
 		8154E6F42B02C20700649F9E /* SwiftUIBasiciOS17App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154E6F32B02C20700649F9E /* SwiftUIBasiciOS17App.swift */; };
 		8154E6F62B02C20700649F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8154E6F52B02C20700649F9E /* ContentView.swift */; };
 		8154E6F82B02C20900649F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8154E6F72B02C20900649F9E /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6486E1152C0A0D7C000D928C /* NavigationStackBasic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationStackBasic.swift; path = ../../04.SwiftUIiOS16Basic/SwiftUIiOS16Basic/NavigationStackBasic.swift; sourceTree = "<group>"; };
+		6486E1162C0A0D7D000D928C /* NavigationLinkiOS16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationLinkiOS16.swift; path = ../../04.SwiftUIiOS16Basic/SwiftUIiOS16Basic/NavigationLinkiOS16.swift; sourceTree = "<group>"; };
+		6486E1172C0A0D7D000D928C /* NavigationSpliteViewiOS16.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationSpliteViewiOS16.swift; path = ../../04.SwiftUIiOS16Basic/SwiftUIiOS16Basic/NavigationSpliteViewiOS16.swift; sourceTree = "<group>"; };
 		8154E6F02B02C20700649F9E /* SwiftUIBasiciOS17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasiciOS17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8154E6F32B02C20700649F9E /* SwiftUIBasiciOS17App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasiciOS17App.swift; sourceTree = "<group>"; };
 		8154E6F52B02C20700649F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 				8154E7072B053F2700649F9E /* ScrollViewiOS17.swift */,
 				8154E7092B05435500649F9E /* UserViewModeliOS17.swift */,
 				8154E70B2B05448F00649F9E /* ObservationiOS17.swift */,
+				6486E1162C0A0D7D000D928C /* NavigationLinkiOS16.swift */,
+				6486E1172C0A0D7D000D928C /* NavigationSpliteViewiOS16.swift */,
+				6486E1152C0A0D7C000D928C /* NavigationStackBasic.swift */,
 				8154E6F72B02C20900649F9E /* Assets.xcassets */,
 				8154E6F92B02C20900649F9E /* Preview Content */,
 			);
@@ -155,12 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6486E11A2C0A0D7D000D928C /* NavigationSpliteViewiOS16.swift in Sources */,
 				8154E70C2B05448F00649F9E /* ObservationiOS17.swift in Sources */,
 				8154E6F62B02C20700649F9E /* ContentView.swift in Sources */,
+				6486E1192C0A0D7D000D928C /* NavigationLinkiOS16.swift in Sources */,
 				8154E7062B053C2A00649F9E /* SymbolEffectiOS17.swift in Sources */,
 				8154E7022B02C24E00649F9E /* SectorMarkiOS17.swift in Sources */,
 				8154E70A2B05435500649F9E /* UserViewModeliOS17.swift in Sources */,
 				8154E7082B053F2700649F9E /* ScrollViewiOS17.swift in Sources */,
+				6486E1182C0A0D7D000D928C /* NavigationStackBasic.swift in Sources */,
 				8154E6F42B02C20700649F9E /* SwiftUIBasiciOS17App.swift in Sources */,
 				8154E7042B05371800649F9E /* ContentUnavailableViewiOS17.swift in Sources */,
 			);
